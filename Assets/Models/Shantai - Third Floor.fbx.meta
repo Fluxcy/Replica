@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: e55e1008e69dd5545a48cf688dc5d593
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balcony Baked
+    second: {fileID: 2100000, guid: b813a07f7c264254cb2b49adb400751f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balcony Door Baked
+    second: {fileID: 2100000, guid: af3a296986919b64ab699298eb5dd6bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balcony Switch Board Baked
+    second: {fileID: 2100000, guid: d9dc3ad150f0f664d82cc9ca14ae5c3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basin Area Baked
+    second: {fileID: 2100000, guid: 020c1855f0a8126439ce08db72ada881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basin Body Baked
+    second: {fileID: 2100000, guid: 26bbf05934673e94a87e6ab07d8055ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basin Tap Body Baked
+    second: {fileID: 2100000, guid: 0f09a1d812a90ba4c9ebd45c426cc94a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basin Tap Handle Baked
+    second: {fileID: 2100000, guid: 3f2a729734fdd954ab47c101b5b4f4f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom Baked
+    second: {fileID: 2100000, guid: d8e436775e06a134d90fa7a57e104871, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom Door Baked
+    second: {fileID: 2100000, guid: a11ee12dd95411449bdfa89b19e6f1a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom Hanger Baked
+    second: {fileID: 2100000, guid: 35cee7b8678d5dd44a01c58f09c7480d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom Shower Head Baked
+    second: {fileID: 2100000, guid: cd9aaa0f85122a34a93d46913099229d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom Soap Stand Baked
+    second: {fileID: 2100000, guid: cc8d4d20899899748b55d515b4e11842, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom Socket Baked
+    second: {fileID: 2100000, guid: 15540fe1be4823b45af120b92cc0fec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom WIndow Glass Flaps Baked
+    second: {fileID: 2100000, guid: a8830a32c101e814b827e4aa1c2f8dc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom Window Frame Baked
+    second: {fileID: 2100000, guid: b8ae9d45bea035447ae31a4b12bb1b36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulb Body Baked
+    second: {fileID: 2100000, guid: 409125e181632f442bd0a46921ace633, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulb LED - White - Emissive
+    second: {fileID: 2100000, guid: 583bd1f9d7deedb48a182c532a3b0359, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drainage Hole Baked
+    second: {fileID: 2100000, guid: 5c7165e7ed40538489ea63b56167a862, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flush Button Baked
+    second: {fileID: 2100000, guid: 2ddea58672ea4764ab5c595baff6162a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Baked
+    second: {fileID: 2100000, guid: fca235047c7b4f84bbbe537a22b56702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Curtain Rod Big Baked
+    second: {fileID: 2100000, guid: 061cd99a3bd1551418436e5cda6a5c13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Curtain Rod Small Baked
+    second: {fileID: 2100000, guid: 635b4782015014b4485d60fb1ea9cddf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Door Primary Baked
+    second: {fileID: 2100000, guid: 700558f32cfabfa4eb0818263337086f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Door Secondary Baked
+    second: {fileID: 2100000, guid: ffe39be845ff0d944afd21917c8b3466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Switch Board Big Baked
+    second: {fileID: 2100000, guid: b23f176d8592a95409c4d92ecac12265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Switch Board Small Baked
+    second: {fileID: 2100000, guid: a0a120e9db891cb44a65c0fb5cb3e8d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Window Center Sash Baked
+    second: {fileID: 2100000, guid: 1ddfcb2cc61894440bacb2791965d269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Window Frame Baked
+    second: {fileID: 2100000, guid: daeac6d0d8a3e494c854b825ad3156fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Window Glass Baked
+    second: {fileID: 2100000, guid: 9f54b527408c76240ae6cc38158a8c39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Window Left Sash Baked
+    second: {fileID: 2100000, guid: 0f23b67d034375e4dbf6086c241d3ad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hall Window Right Sash Baked
+    second: {fileID: 2100000, guid: 8e69e47ad93366a479be998096b8f102, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indian Commode Body Baked
+    second: {fileID: 2100000, guid: 8d6d9a6fa1c299742ac3deffffbebebf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indian Commode Flush Tank Baked
+    second: {fileID: 2100000, guid: 005b14460128ea841b349d36ef58c781, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Baked
+    second: {fileID: 2100000, guid: bf8797b9ca591e54080fde64da4d11f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Switch Board Big Baked
+    second: {fileID: 2100000, guid: 9b2dd0e92b80eec4c83a91cabcf3c226, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Switch Board Medium Baked
+    second: {fileID: 2100000, guid: 282b45897cd3c714799872daea10fbee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Switch Board Small Baked
+    second: {fileID: 2100000, guid: ccbb121539f76a74c893956b4e0fe421, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Window Thin Frame Baked
+    second: {fileID: 2100000, guid: dabe9b05bc49c714c846a54f60f197f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Window Thin Glass Baked
+    second: {fileID: 2100000, guid: 4ea8f81e68898f840bc81ef302cd2ca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Window Thin Left Sash Baked
+    second: {fileID: 2100000, guid: b229d043b729e17439e4e16d693f8ae1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Window Thin Right Sash Baked
+    second: {fileID: 2100000, guid: 9710ba1f8945b1140bf65abcbf2bd99f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Window Wide Frame Baked
+    second: {fileID: 2100000, guid: 75baa8b6665a087488f6ba7012168d16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Window Wide Glass Baked
+    second: {fileID: 2100000, guid: c535677da28254f4aba8c2bb77e57ade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Window Wide Left Sash Baked
+    second: {fileID: 2100000, guid: b1f52b0a1198b484eaf588f77cfad22f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kitchen Window Wide Right Sash Baked
+    second: {fileID: 2100000, guid: 993c3a5f738ef6146bed417a21eadc85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Baked
+    second: {fileID: 2100000, guid: dcd77d59eab247c4b921399ce7d84251, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Curtain Rod Big Baked
+    second: {fileID: 2100000, guid: fdc04a70018218b46be5c5d44044c75b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Curtain Rod Small Baked
+    second: {fileID: 2100000, guid: 1e58ec5b536d9564fa26787b74ba891f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Door - Baked
+    second: {fileID: 2100000, guid: c4e1ee90e8dbce54db3e9ce3082c72ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Switch Board Big Baked
+    second: {fileID: 2100000, guid: c817ef397b852264c91e0fb96424a68c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Switch Board Switch Baked
+    second: {fileID: 2100000, guid: 1131499ff4c1b9b4c9511630513eda23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Window Thin Frame Baked
+    second: {fileID: 2100000, guid: 2bcece6e4f675c640bcfccb06a58dbd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Window Thin Glass Baked
+    second: {fileID: 2100000, guid: ed85143ba8ac16042855c1f9942cf8f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Window Thin Left Sash
+    second: {fileID: 2100000, guid: 38926870b2daf4f468142d00eaf5385b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Window Thin Right Sash
+    second: {fileID: 2100000, guid: d4cbf285cbcfbe74b8e98eb1a5e1daa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Window Wide Frame Baked
+    second: {fileID: 2100000, guid: 2879317d6eee1964aacc5ab47869d653, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Window Wide Glass Baked
+    second: {fileID: 2100000, guid: 1cd8b20c420458b4cbf424947f5384e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Window Wide Left Sash Baked
+    second: {fileID: 2100000, guid: 074085f5f7b683847b6a8f91a212c9c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room Window Wide Right Sash Baked
+    second: {fileID: 2100000, guid: adb5fffa4fbae904181c20a2c553c0ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sink Body Baked
+    second: {fileID: 2100000, guid: ecd1103ee31fd35449aca300bbefb946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sink Switch Board Baked
+    second: {fileID: 2100000, guid: 457ff1a41d7ccb34ba505d2d4ce0d939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sink Tap Body Baked
+    second: {fileID: 2100000, guid: ac4a1c6c1de86be4fb2e2d75b7c326ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sink Tap Handle
+    second: {fileID: 2100000, guid: 089206f6b0f49f240b882b0082b9293c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Switch Button Baked
+    second: {fileID: 2100000, guid: 8844eeaa60f465843a35f64630556298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tap Body Big Baked
+    second: {fileID: 2100000, guid: 49045ffb474181744b7942f965a840de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tap Body Small Baked
+    second: {fileID: 2100000, guid: 80d69bb384dc23144954c4746af161d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tap Handle Big Center Baked
+    second: {fileID: 2100000, guid: be8b7677f0db5604395d17614782713c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tap Handle Big Left Baked
+    second: {fileID: 2100000, guid: c891fc2914a99444484ff179ba10026a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tap Handle Big Right Baked
+    second: {fileID: 2100000, guid: faf19242d405573448c2d2be6b111058, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tap Handle Small Baked
+    second: {fileID: 2100000, guid: 45804aae01aa1704cbc11f25603bc7ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toilet Baked
+    second: {fileID: 2100000, guid: 280b831c383db98459e1c2fd4767d12a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toilet Door Baked
+    second: {fileID: 2100000, guid: 7179742fcfa56854fa0eb82039d4c340, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toilet Tap Body Baked
+    second: {fileID: 2100000, guid: 5d52c0836ec6bd344804abd3bfdc76d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toilet Tap Handle 1 Baked
+    second: {fileID: 2100000, guid: 9f6e3ba81b6854145b37d6a7c7709ff8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toilet Tap Handle 2 Baked
+    second: {fileID: 2100000, guid: 903e4e3b8de0f1546881136654a331d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toilet Window Frame Baked
+    second: {fileID: 2100000, guid: b5201c43590a66e4dbd6167002be3f77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toilet Window Glass Flaps Baked
+    second: {fileID: 2100000, guid: fd966b605b76f9e4091a7575745f1b06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tubelight Holder Down Body Baked
+    second: {fileID: 2100000, guid: d248908a02f6506469730ff98067eda5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tubelight Holder Up Body Baked
+    second: {fileID: 2100000, guid: bab6e9551287b864b91c98cf3e9b843b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tubelight LED  - White - Emissive
+    second: {fileID: 2100000, guid: 6d634c865e9691b4eaa97870ba13d966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Western Commode Body Baked
+    second: {fileID: 2100000, guid: ab7c13a8aa6420945a3b8b4c0f201536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Western Commode Lid Base Baked
+    second: {fileID: 2100000, guid: 1ac036312afc3d8488001de93bb70677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Western Commode Lid Top Baked
+    second: {fileID: 2100000, guid: 0b7723f8fd9da1540a1c8f313e75dff1, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
