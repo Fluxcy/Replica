@@ -67,11 +67,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Bathroom Socket Baked
-    second: {fileID: 2100000, guid: 15540fe1be4823b45af120b92cc0fec4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Bathroom WIndow Glass Flaps Baked
     second: {fileID: 2100000, guid: a8830a32c101e814b827e4aa1c2f8dc8, type: 2}
   - first:
