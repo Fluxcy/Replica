@@ -30,7 +30,7 @@ public class PlayerRaycastShoot : MonoBehaviour
 
                 if (target.gameObject.tag == "Switch")
                 {
-                    target.GetComponent<Switch>().toggle();
+                    target.GetComponent<SwitchMechanics>().toggle();
                 }
             }
         }
