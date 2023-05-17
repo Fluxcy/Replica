@@ -358,6 +358,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: -15}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3140347291352195375
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -473,6 +474,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: -15, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &1345953936872069416
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -753,8 +755,9 @@ GameObject:
   - component: {fileID: 5537602269147023924}
   - component: {fileID: 1495811776696878960}
   - component: {fileID: 5026071231095358299}
+  - component: {fileID: 5592777335560403273}
   m_Layer: 0
-  m_Name: Mesh
+  m_Name: Balcony Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -768,12 +771,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542111582805763656}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.9149978, y: 0.0025001192, z: -4.290496}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5026071230216844308}
-  m_RootOrder: 0
+  m_Father: {fileID: 5026071231870046845}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5537602269147023924
 MeshFilter:
@@ -839,6 +842,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2765745167746150205, guid: e55e1008e69dd5545a48cf688dc5d593, type: 3}
+--- !u!114 &5592777335560403273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542111582805763656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6c6129ddad7b14c9b22a2d2ea08ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openSpeed: 2
+  doorOpenAngle: 90
 --- !u!1 &877699715930060976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1194,6 +1211,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: -15}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &679297087094856315
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1393,6 +1411,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: -15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3125573941258776793
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1592,6 +1611,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: -15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3244986220776616986
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1873,6 +1893,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 15}
+  linkedLight: {fileID: 0}
 --- !u!64 &4238542073124436734
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2159,6 +2180,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 15}
+  linkedLight: {fileID: 0}
 --- !u!64 &2965723184042749139
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2457,6 +2479,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 15}
+  linkedLight: {fileID: 0}
 --- !u!64 &2885727975553100534
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3004,6 +3027,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: 15, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &4520811405791561649
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3119,6 +3143,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: -15}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &2293632656046120952
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3400,6 +3425,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: 15, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &2627462131927579567
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3426,8 +3452,9 @@ GameObject:
   - component: {fileID: 1566514865837330506}
   - component: {fileID: 1153959603609330013}
   - component: {fileID: 4233316783071988006}
+  - component: {fileID: 845377977546558053}
   m_Layer: 0
-  m_Name: Mesh
+  m_Name: Toilet Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3441,12 +3468,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2638659427496381692}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.4729986, y: 0.005, z: -4.3524957}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5026071230311276534}
-  m_RootOrder: 0
+  m_Father: {fileID: 5026071231870046845}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1566514865837330506
 MeshFilter:
@@ -3512,6 +3539,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5936274272078078556, guid: e55e1008e69dd5545a48cf688dc5d593, type: 3}
+--- !u!114 &845377977546558053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2638659427496381692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6c6129ddad7b14c9b22a2d2ea08ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openSpeed: 2
+  doorOpenAngle: 90
 --- !u!1 &2756914590283561471
 GameObject:
   m_ObjectHideFlags: 0
@@ -4460,6 +4501,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: -15, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3048863799927122000
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4741,6 +4783,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: -15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3227308774054075459
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5191,6 +5234,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: -15, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3769566770878268113
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6950,67 +6994,6 @@ Transform:
   m_Father: {fileID: 5026071231371711821}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5026071230216844311
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5026071230216844308}
-  - component: {fileID: 5026071230216844306}
-  - component: {fileID: 5026071230216844309}
-  m_Layer: 10
-  m_Name: Balcony Door
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5026071230216844308
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071230216844311}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.9149978, y: 0.0025001192, z: -4.290496}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4724832190079446845}
-  m_Father: {fileID: 5026071231870046845}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5026071230216844306
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071230216844311}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.84, y: 2, z: 1.75}
-  m_Center: {x: -0.42, y: 1.025, z: 0}
---- !u!114 &5026071230216844309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071230216844311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d6c6129ddad7b14c9b22a2d2ea08ffb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  smooth: 2
-  doorOpenAngle: 90
 --- !u!1 &5026071230226662505
 GameObject:
   m_ObjectHideFlags: 0
@@ -7102,67 +7085,6 @@ MonoBehaviour:
   rightWindow: {fileID: 5026071229976570652}
   leftWindowAnimator: {fileID: 5026071229973459427}
   rightWindowAnimator: {fileID: 5026071229976570651}
---- !u!1 &5026071230311276488
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5026071230311276534}
-  - component: {fileID: 5026071230311276489}
-  - component: {fileID: 5026071230311276535}
-  m_Layer: 0
-  m_Name: Toilet Door
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5026071230311276534
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071230311276488}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.4729986, y: 0.005, z: -4.3524957}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4233316783071988025}
-  m_Father: {fileID: 5026071231870046845}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5026071230311276489
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071230311276488}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.635, y: 2, z: 1.25}
-  m_Center: {x: 0.3375, y: 1.025, z: 0}
---- !u!114 &5026071230311276535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071230311276488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d6c6129ddad7b14c9b22a2d2ea08ffb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  smooth: 2
-  doorOpenAngle: 90
 --- !u!1 &5026071230521520009
 GameObject:
   m_ObjectHideFlags: 0
@@ -7453,67 +7375,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &5026071230705231103
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5026071230705231100}
-  - component: {fileID: 5026071230705231101}
-  - component: {fileID: 5026071230705231098}
-  m_Layer: 10
-  m_Name: Bathroom Door
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5026071230705231100
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071230705231103}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.5659966, y: -0.012499988, z: -5.434994}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8621060947476562251}
-  m_Father: {fileID: 5026071231870046845}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5026071230705231101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071230705231103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d6c6129ddad7b14c9b22a2d2ea08ffb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  smooth: 2
-  doorOpenAngle: 90
---- !u!65 &5026071230705231098
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071230705231103}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.635, y: 2, z: 1.25}
-  m_Center: {x: 0.3375, y: 1.025, z: -0.25}
 --- !u!1 &5026071230750789487
 GameObject:
   m_ObjectHideFlags: 0
@@ -7961,67 +7822,6 @@ MonoBehaviour:
   rightWindow: {fileID: 0}
   leftWindowAnimator: {fileID: 5026071231371711819}
   rightWindowAnimator: {fileID: 0}
---- !u!1 &5026071231512991066
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5026071231512991067}
-  - component: {fileID: 5026071231512991064}
-  - component: {fileID: 5026071231512991065}
-  m_Layer: 0
-  m_Name: Room Door
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5026071231512991067
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071231512991066}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.5724974, y: 0.0025001192, z: -4.290496}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7036622241826763073}
-  m_Father: {fileID: 5026071231870046845}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5026071231512991064
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071231512991066}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.84, y: 2, z: 1.25}
-  m_Center: {x: 0.42, y: 1.025, z: 0.25}
---- !u!114 &5026071231512991065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026071231512991066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d6c6129ddad7b14c9b22a2d2ea08ffb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  smooth: 2
-  doorOpenAngle: -90
 --- !u!1 &5026071231650302456
 GameObject:
   m_ObjectHideFlags: 0
@@ -8117,10 +7917,10 @@ Transform:
   m_Children:
   - {fileID: 6568739915986150488}
   - {fileID: 1725203712961611691}
-  - {fileID: 5026071230705231100}
-  - {fileID: 5026071231512991067}
-  - {fileID: 5026071230311276534}
-  - {fileID: 5026071230216844308}
+  - {fileID: 8621060947476562251}
+  - {fileID: 7036622241826763073}
+  - {fileID: 4233316783071988025}
+  - {fileID: 4724832190079446845}
   m_Father: {fileID: 4776780277361989405}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8346,6 +8146,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: -15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3682008593474815409
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8786,6 +8587,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 15}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3192342240321630161
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8901,6 +8703,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 15}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3588268826621251343
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9182,6 +8985,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &8484824754547774173
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9561,6 +9365,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: -15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &1938008768301992404
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9940,6 +9745,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: -15}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3190487130085041303
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10055,6 +9861,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: -15, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &2656160407440350001
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10590,6 +10397,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3372715653116792824
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10705,6 +10513,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: 15, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &6987740503911011318
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11237,6 +11046,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: -15, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &7522253582881922849
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11435,6 +11245,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: -15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &4289644440965711026
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11800,6 +11611,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: -15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &4273734120638011764
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11915,6 +11727,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 15}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3101161749235126619
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12447,6 +12260,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: 0}
   onRotation: {x: 15, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3570933611929109869
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12911,6 +12725,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: -15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &2549772244332333081
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13709,6 +13524,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 0, y: 0, z: -15}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &8567116267963546741
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13734,9 +13550,9 @@ GameObject:
   - component: {fileID: 7036622241826763073}
   - component: {fileID: 8444298376198153550}
   - component: {fileID: 5427752518854561612}
-  - component: {fileID: 8581472443783193287}
+  - component: {fileID: 125267454905970238}
   m_Layer: 0
-  m_Name: Mesh
+  m_Name: Room Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13750,12 +13566,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8581472443783193286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.5724974, y: 0.0025001192, z: -4.290496}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5026071231512991067}
-  m_RootOrder: 0
+  m_Father: {fileID: 5026071231870046845}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8444298376198153550
 MeshFilter:
@@ -13807,20 +13623,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8581472443783193287
-MeshCollider:
+--- !u!114 &125267454905970238
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8581472443783193286}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4325695577965589010, guid: e55e1008e69dd5545a48cf688dc5d593, type: 3}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6c6129ddad7b14c9b22a2d2ea08ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openSpeed: 2
+  doorOpenAngle: -90
 --- !u!1 &8608902055320923964
 GameObject:
   m_ObjectHideFlags: 0
@@ -14020,6 +13836,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: -15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &8671187298664701385
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14592,6 +14409,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: 15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &1913474731249651636
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14705,8 +14523,9 @@ GameObject:
   - component: {fileID: 501428203071577178}
   - component: {fileID: 1632121190968055292}
   - component: {fileID: 1632121190968055293}
+  - component: {fileID: 8762639236330218299}
   m_Layer: 0
-  m_Name: Mesh
+  m_Name: Bathroom Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14720,12 +14539,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9154185574451140369}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.5659966, y: -0.012499988, z: -5.434994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5026071230705231100}
-  m_RootOrder: 0
+  m_Father: {fileID: 5026071231870046845}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &501428203071577178
 MeshFilter:
@@ -14791,6 +14610,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2488019133428618596, guid: e55e1008e69dd5545a48cf688dc5d593, type: 3}
+--- !u!114 &8762639236330218299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9154185574451140369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6c6129ddad7b14c9b22a2d2ea08ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openSpeed: 2
+  doorOpenAngle: 90
 --- !u!1 &9205103693943490460
 GameObject:
   m_ObjectHideFlags: 0
@@ -14892,6 +14725,7 @@ MonoBehaviour:
   flipSpeed: 10
   offRotation: {x: -15, y: 0, z: 0}
   onRotation: {x: 0, y: 0, z: 0}
+  linkedLight: {fileID: 0}
 --- !u!64 &3992342429299188277
 MeshCollider:
   m_ObjectHideFlags: 0

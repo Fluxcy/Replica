@@ -11,25 +11,23 @@ public class DoorMechanics : MonoBehaviour
 
     private Vector3 closedRotation;
     private Vector3 openRotation;
-    private Transform meshTransform;
 
     private void Start()
     {
         opened = false;
         closedRotation = transform.eulerAngles;
         openRotation = new Vector3(closedRotation.x, closedRotation.y + doorOpenAngle, closedRotation.z);
-        meshTransform = transform.Find("Mesh");
     }
 
     private void Update()
     {
         if (opened)
         {
-            meshTransform.rotation = Quaternion.Slerp(meshTransform.rotation, Quaternion.Euler(openRotation), Time.deltaTime * openSpeed);
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(openRotation), Time.deltaTime * openSpeed);
         }
         else
         {
-            meshTransform.rotation = Quaternion.Slerp(meshTransform.rotation, Quaternion.Euler(closedRotation), Time.deltaTime * openSpeed);
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(closedRotation), Time.deltaTime * openSpeed);
         }
     }
 
