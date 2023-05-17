@@ -32,6 +32,10 @@ public class PlayerRaycastShoot : MonoBehaviour
                 {
                     target.GetComponent<SwitchMechanics>().toggle();
                 }
+                else if(target.gameObject.tag == "Door")
+                {
+                    target.GetComponent<DoorMechanics>().open();
+                }
             }
         }
     }
