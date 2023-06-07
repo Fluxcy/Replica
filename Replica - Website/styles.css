@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+body{
+    overflow: overlay;
+    background: linear-gradient(#06051a 0%, #1D175E 20%, #251E77 40%, #1D175E 60%, #07051C 100%);
+}
+
+div{
+    text-align: center;
+    align-items: center;
+}
+
+/*  Scrollbar   */
+::-webkit-scrollbar {
+    width: .75vw;
+    background: white;
+}
+::-webkit-scrollbar-track{
+    border-radius: 9999px;
+    margin-block: 1vh;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #120f4d;
+    border: .5px white solid;
+    border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #1d1880;
+}
+
+/*  Header  */
+.header{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  Logo  */
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*  Title   */
+.title, .subtitle, .text{
+    font-weight: 200;
+}
+.title{
+    display: inline-block;
+    font-size: calc(1.5rem + 2.5vw);
+    letter-spacing: calc(.125rem + .375vw);
+}
+.title::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: white;
+    margin: auto;
+    display: block;
+}
+.title:hover::after{
+    width: 100%;
+    transition: width .25s linear;
+}
+
+.subtitle, .text{
+    font-size: calc(.75rem + 1.25vw);
+    letter-spacing: calc(.0625rem + .1875vw);
+}
+
+/*------------------------------  Section 1   ------------------------------*/
+
+#title-1{
+    text-align: center;
+    margin: 1.5vh 1vh;
+    text-shadow: solid 2px black;
+}
+#subtitle-1{
+    margin: 0vh 1vh;
+    text-align: center;
+}
+/*  Earth   */
+.earth{
+    padding: 5vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.earth-image{
+    max-width: 60vh;
+    vertical-align: middle;
+    animation: up-and-down 3s ease-in 0s infinite;
+}
+
+@keyframes up-and-down{
+    0%{
+       transform: translateY(0);
+    }
+    33%{
+       transform: translateY(.5rem);
+    }
+    66%{
+       transform: translateY(-.5rem);
+    }
+    100%{
+       transform: translateY(0);
+    }
+ }
+
+ /*------------------------------  Section 2   ------------------------------*/
+
+#section-2{
+    position: relative;
+    margin: 20vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+#title-2, #text-2{
+    text-align: right;
+    margin: 1vh 5vw;
+}
+
+/*  Taj Mahal   */
+.taj-mahal{
+    padding: 0 7.5vw;
+}
+.taj-mahal-image{
+    height: calc(10rem + 15vw);
+    vertical-align: center;
+}
+
+/*------------------------------  Section 3   ------------------------------*/
+
+#section-3{
+    display: flex;
+    margin: 40vh 0;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+#title-3, #text-3{
+    text-align: left;
+    margin: 1vh 5vw;
+}
+button{
+    height: 64px;
+    width: 288px;
+    margin: 5vh 0;
+    background: #181464;
+    font-size: 2rem;
+    border-radius: 0.5vw;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.model{
+    z-index: -5;
+    padding: 0 2.5vw;
+}
+.model-image{
+    width: 90vw;
+    opacity: 0.8;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.4);
+}
+
+/*------------------------------  Section 4   ------------------------------*/
+
+#section-4{
+    position: relative;
+    margin-top: 40vh;
+    margin-bottom: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+#title-4, #text-4{
+    text-align: right;
+    margin: 1vh 5vw;
+}
+.replik{
+    margin: 0 7.5vw;
+}
+.replik-image{
+    height: calc(15rem + 10vw);
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: calc(.75rem + 1.25vw);
+    letter-spacing: calc(.0625rem + .1875vw);
+    margin: 2vh 0;
+}
+
+/*------------------------------  Section 5   ------------------------------*/
+
+#section-5{
+    position: relative;
+    margin-bottom: 10vh;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5vh 0;
+}
+#email-link{
+    display: inline-block;
+}
+#linkedin-icon, #github-icon, #instagram-icon{
+    margin: 0 2.5vw;
+    width: calc(3rem + 5vw);
+}
