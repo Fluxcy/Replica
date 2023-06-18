@@ -1,0 +1,4 @@
+- Developed an Interactive 3D Virtual Tour Application, inspired from the Metaverse.
+- Runs directly on your web browser without any downloads.
+- 1 : 1 scale, real-life locations designed & replicated in a 3D environment using AutoCAD and Blender.
+- Interactive exploration with life-like mechanics implemented with Unity.
